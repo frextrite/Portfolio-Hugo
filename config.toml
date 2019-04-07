@@ -1,0 +1,71 @@
+baseurl = "/"
+languageCode = "en-us"
+theme = "hello-friend-ng"
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = true
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  description = "Portfolio website by Amol Grover"
+  keywords = "portfolio, computer-science, homepage, science, development, programming, computer, technology"
+  images = [""]
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = ""
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/frextrite"
+
+  [[params.social]]
+    name = "email"
+    url = "mailto:insertemail"
+
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/frextrite"
+
+  [[params.social]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/amolgrover"
+
+  [[params.social]]
+    name = "blog"
+    url = "https://medium.com/@frextrite"
+
+  [[params.social]]
+    name = "cv"
+    url = "https://drive.google.com/open?id=1wAVEouJ8WHcD0nvOl4FM2HIDg6R4Ss6t"
+
+[languages]
+  [languages.en]
+    title = "Amol Grover"
+    homeSubtitle = "Explorer of technologies."
+    keywords = ""
+    copyright = "Amol Grover"
+    readOtherPosts = "Posts"
+
+    [languages.en.params.logo]
+      logoText = "~ uname -a"
+      logoHomeLink = "/"
+
+# And you can even create generic menu
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
